@@ -73,4 +73,11 @@ public:
 enum orsPointAttributionFlag
 {
 	PA_ELEVATION = 0,
-	PA_INTENSIT
+	PA_INTENSITY = 1,
+};
+
+#define ORS_INTERFACE_POINTCLOUDSOURCE_READER		"ors.pointcloud.reader"
+#define ORS_INTERFACE_POINTCLOUDSOURCE_READER_LAS	"ors.pointcloud.reader.las"
+#define ORS_INTERFACE_POINTCLOUDSOURCE_READER_ATN	"ors.pointcloud.reader.atn"
+
+#endif
